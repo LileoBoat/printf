@@ -11,7 +11,6 @@
  * @size: Size specifier
  * Return: Number of chars printed.
  */
-
 int print_pointer(va_list types, char buffer[],
 	int flags, int width, int precision, int size)
 {
@@ -187,4 +186,3 @@ int print_rot13string(va_list types, char buffer[],
 	}
 	return (count);
 }
-

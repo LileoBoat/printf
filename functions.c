@@ -12,7 +12,6 @@
  * @size: Size specifier
  * Return: Number of chars printed
  */
-
 int print_char(va_list types, char buffer[],
 	int flags, int width, int precision, int size)
 {
@@ -187,5 +186,3 @@ int print_binary(va_list types, char buffer[],
 	}
 	return (count);
 }
-
-
